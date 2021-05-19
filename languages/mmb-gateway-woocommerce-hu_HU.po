@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 15:11+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: classes\n"
+
+#: admin/class-mmb-gateway-request.php:222
+msgid "Card payment failed."
+msgstr "Nem sikerült a kártyás fizetés."
+
+#: admin/class-mmb-gateway-request.php:234
+msgid "Card payment completed."
+msgstr "Sikerült a kártyás fizetés."
+
+#: admin/class-mmb-gateway-request.php:247
+msgid ""
+"Thank you for shopping with us.<br />Your transaction was successful, "
+"payment was received.<br />Your order is currently being processed."
+msgstr ""
+"Köszönjük, hogy nálunk vásárolt!<br />Tranzakciója sikeres volt, "
+"az összeget megkaptuk.<br />Megrendelésének feldolgozása folyamatban van."
+
+#: admin/class-mmb-gateway.php:72 admin/mmb-gateway-admin-settings.php:31
+msgid "EVOMexico Gateway"
+msgstr "EVOMexico fizetési átjáró"
+
+#: admin/class-mmb-gateway.php:73
+msgid ""
+"EVOMexico gateway sends customers to EVOMexico to enter their payment "
+"information and redirects back to shop when the payment was completed."
+msgstr ""
+"Az EVOMexico fizetési átjáró az EVOMexico rendszerébe irányítja az ügyfeleket, hogy ott adják meg fizetési "
+"adataikat, majd a fizetés végrehajtását követően visszairányítja őket a boltba."
+
+#: admin/class-mmb-gateway.php:144
+#, php-format
+msgid ""
+"EVOMexico doesn't accept your store currency. Check available currencies  %s here"
+msgstr ""
+"Az EVOMexico nem fogadja el az Ön üzletének fizetőeszközét. A rendszerben rendelkezésre álló fizetőeszközöket %s itt találja"
+
+#: admin/class-mmb-gateway.php:257 admin/class-mmb-gateway.php:266
+msgid "Bad identifier."
+msgstr "Rossz azonosító."
+
+#: admin/mmb-gateway-admin-settings.php:19
+msgid "Enable/Disable"
+msgstr "Engedélyezés/Tiltás"
+
+#: admin/mmb-gateway-admin-settings.php:21
+msgid "Enable EVOMexico Gateway"
+msgstr "Az EVOMexico fizetési átjáró engedélyezése"
+
+#: admin/mmb-gateway-admin-settings.php:22
+msgid "Enable or disable the gateway."
+msgstr "Engedélyezze vagy tiltsa le az átjárót."
+
+#: admin/mmb-gateway-admin-settings.php:27
+msgid "Title"
+msgstr "Cím"
+
+#: admin/mmb-gateway-admin-settings.php:29
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ez a felhasználó számára a fizetéskor megjelenített címet szabályozza."
+
+#: admin/mmb-gateway-admin-settings.php:34
+msgid "Description"
+msgstr "Leírás"
+
+#: admin/mmb-gateway-admin-settings.php:36
+msgid "This controls the description which the user sees during checkout."
+msgstr "Ez a felhasználó számára a fizetéskor megjelenített ismertetőt szabályozza."
+
+#: admin/mmb-gateway-admin-settings.php:37
+msgid "Pay with EVOMexico"
+msgstr "Fizetés az EVOMexico szolgáltatáson keresztül "
+
+#: ../admin/mmb-gateway-admin-settings.php:40
+msgid "EVOMexico Test Mode"
+msgstr "EVOMexico-tesztüzemmód"
+
+#: admin/mmb-gateway-admin-settings.php:42
+msgid "Enable Test Mode"
+msgstr "Tesztüzemmód engedélyezése"
+
+#: admin/mmb-gateway-admin-settings.php:43
+msgid ""
+"Enable or disable the test mode for the gateway to test the payment method."
+msgstr ""
+"A fizetési átjáró tesztüzemmódjának engedélyezése vagy letiltása a fizetési mód teszteléséhez."
+
+#: admin/mmb-gateway-admin-settings.php:48
+msgid "Advanced options"
+msgstr "Speciális beállítások"
+
+#: admin/mmb-gateway-admin-settings.php:53
+msgid "Merchant data"
+msgstr "Kereskedő adatai"
+
+#: admin/mmb-gateway-admin-settings.php:55
+msgid ""
+"In this section You can set up your merchant data for EVOMexico "
+"system."
+msgstr ""
+"Ebben a szakaszban kereskedői adatait adhatja meg az EVOMexico "
+"rendszere számára."
+
+#: admin/mmb-gateway-admin-settings.php:58
+msgid "Merchant ID"
+msgstr "Kereskedőazonosító"
+
+#: admin/mmb-gateway-admin-settings.php:65
+msgid "Password"
+msgstr "Jelszó"
+
+#: admin/mmb-gateway-admin-settings.php:72
+msgid "Payment solution"
+msgstr "Fizetési megoldás"
+
+#: admin/mmb-gateway-admin-settings.php:80
+#: admin/mmb-gateway-admin-settings.php:118
+msgid "URLs"
+msgstr "URL-ek"
+
+#: admin/mmb-gateway-admin-settings.php:82
+#: admin/mmb-gateway-admin-settings.php:120
+msgid "In this section You can set up EVOMexico system URLs."
+msgstr "Ebben a szakaszban azokat az URL-eket állíthatja be, amelyeket az EVOMexico rendszerében kíván használni."
+
+#: admin/mmb-gateway-admin-settings.php:85
+msgid "Test URLs"
+msgstr "Teszt-URL-ek"
+
+#: admin/mmb-gateway-admin-settings.php:87
+msgid "In this section You can set up EVOMexico test system URLs."
+msgstr "Ebben a szakaszban azokat az URL-eket állíthatja be, amelyeket az EVOMexico tesztrendszerében kíván használni."
+
+#: admin/mmb-gateway-admin-settings.php:90
+msgid "Test Token URL"
+msgstr "Teszt token-URL"
+
+#: admin/mmb-gateway-admin-settings.php:97
+msgid "Test Payments URL"
+msgstr "Teszt fizetési URL"
+
+#: admin/mmb-gateway-admin-settings.php:104
+msgid "Test JavaScript URL"
+msgstr "Teszt JavaScript-URL"
+
+#: admin/mmb-gateway-admin-settings.php:111
+msgid "Test Cashier URL"
+msgstr "Teszt pénztár-URL"
+
+#: admin/mmb-gateway-admin-settings.php:123
+msgid "Token URL"
+msgstr "Token-URL"
+
+#: admin/mmb-gateway-admin-settings.php:130
+msgid "Payments URL"
+msgstr "Fizetési URL"
+
+#: admin/mmb-gateway-admin-settings.php:137
+msgid "JavaScript URL"
+msgstr "JavaScript-URL"
+
+#: admin/mmb-gateway-admin-settings.php:144
+msgid "Cashier URL"
+msgstr "Pénztár-URL"
+
+#: classes/class-mmb-gateway-woocommerce-activator.php:37
+#: classes/class-mmb-gateway-woocommerce-activator.php:43
+msgid "EVOMexico Gateway for Woocommerce requires Woocommerce version 2.1 or higher"
+msgstr "A Woocommerce EVOMexico fizetési átjárója esetében a Woocommerce 2.1-es vagy újabb verziója szükséges"
+
+#: classes/class-mmb-gateway-woocommerce-activator.php:37
+#: classes/class-mmb-gateway-woocommerce-activator.php:43
+msgid "Plugin Activation Error"
+msgstr "Beépülőmodul-aktiválási hiba"
+
+msgid "Order ID:"
+msgstr ""
+
+msgid "Transaction ID:"
+msgstr ""
+
+msgid "Brand ID"
+msgstr ""
+
+msgid "Payment mode"
+msgstr ""
+
+msgid "Iframe"
+msgstr ""
+
+msgid "Redirect"
+msgstr ""
+
+msgid "HostedPayPage"
+msgstr ""

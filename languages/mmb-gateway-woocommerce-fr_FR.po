@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-25 15:11+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: classes\n"
+
+#: admin/class-mmb-gateway-request.php:222
+msgid "Card payment failed."
+msgstr "Échec du paiement par carte."
+
+#: admin/class-mmb-gateway-request.php:234
+msgid "Card payment completed."
+msgstr "Paiement par carte effectué."
+
+#: admin/class-mmb-gateway-request.php:247
+msgid ""
+"Thank you for shopping with us.<br />Your transaction was successful, "
+"payment was received.<br />Your order is currently being processed."
+msgstr ""
+"Merci pour votre commande.<br />La transaction a été effectuée avec succès, "
+"le paiement a bien été reçu.<br />Nous traitons actuellement votre commande."
+
+#: admin/class-mmb-gateway.php:72 admin/mmb-gateway-admin-settings.php:31
+msgid "EVOMexico Gateway"
+msgstr "Portail EVOMexico"
+
+#: admin/class-mmb-gateway.php:73
+msgid ""
+"EVOMexico gateway sends customers to EVOMexico to enter their payment "
+"information and redirects back to shop when the payment was completed."
+msgstr ""
+"Le portail EVOMexico redirige les clients vers la plateforme EVOMexico pour y saisir "
+"leurs informations, puis les renvoie au magasin une fois le paiement effectué."
+
+#: admin/class-mmb-gateway.php:144
+#, php-format
+msgid ""
+"EVOMexico doesn't accept your store currency. Check available currencies  %s here"
+msgstr ""
+"EVOMexico n'accepte pas la devise de ce magasin. Vérifiez %s ici les devises acceptées"
+
+#: admin/class-mmb-gateway.php:257 admin/class-mmb-gateway.php:266
+msgid "Bad identifier."
+msgstr "Mauvais identifiant."
+
+#: admin/mmb-gateway-admin-settings.php:19
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+#: admin/mmb-gateway-admin-settings.php:21
+msgid "Enable EVOMexico Gateway"
+msgstr "Activer le portail de paiement EVOMexico"
+
+#: admin/mmb-gateway-admin-settings.php:22
+msgid "Enable or disable the gateway."
+msgstr "Activer ou désactiver le portail."
+
+#: admin/mmb-gateway-admin-settings.php:27
+msgid "Title"
+msgstr "Titre"
+
+#: admin/mmb-gateway-admin-settings.php:29
+msgid "This controls the title which the user sees during checkout."
+msgstr "Spécifie le titre que voit le client lors de la commande."
+
+#: admin/mmb-gateway-admin-settings.php:34
+msgid "Description"
+msgstr "Description"
+
+#: admin/mmb-gateway-admin-settings.php:36
+msgid "This controls the description which the user sees during checkout."
+msgstr "Spécifie la description que voit le client lors de la commande."
+
+#: admin/mmb-gateway-admin-settings.php:37
+msgid "Pay with EVOMexico"
+msgstr "Payer via EVOMexico"
+
+#: admin/mmb-gateway-admin-settings.php:40
+msgid "EVOMexico Test Mode"
+msgstr "Mode de test EVOMexico"
+
+#: admin/mmb-gateway-admin-settings.php:42
+msgid "Enable Test Mode"
+msgstr "Activer le mode de test"
+
+#: admin/mmb-gateway-admin-settings.php:43
+msgid ""
+"Enable or disable the test mode for the gateway to test the payment method."
+msgstr ""
+"Activer ou désactiver le mode de test du portail pour vérifier une méthode de paiement."
+
+#: admin/mmb-gateway-admin-settings.php:48
+msgid "Advanced options"
+msgstr "Options avancées"
+
+#: admin/mmb-gateway-admin-settings.php:53
+msgid "Merchant data"
+msgstr "Données commerçant"
+
+#: admin/mmb-gateway-admin-settings.php:55
+msgid ""
+"In this section You can set up your merchant data for EVOMexico "
+"system."
+msgstr ""
+"Dans cette section, vous pouvez saisir vos données commerçant pour la plateforme "
+"EVOMexico."
+
+#: admin/mmb-gateway-admin-settings.php:58
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: admin/mmb-gateway-admin-settings.php:65
+msgid "Password"
+msgstr "Mot de passe"
+
+#: admin/mmb-gateway-admin-settings.php:72
+msgid "Payment solution"
+msgstr "Mode de paiement"
+
+#: admin/mmb-gateway-admin-settings.php:80
+#: admin/mmb-gateway-admin-settings.php:118
+msgid "URLs"
+msgstr "URL"
+
+#: admin/mmb-gateway-admin-settings.php:82
+#: admin/mmb-gateway-admin-settings.php:120
+msgid "In this section You can set up EVOMexico system URLs."
+msgstr "Cette section vous permet de définir des URL pour la plateforme EVOMexico."
+
+#: admin/mmb-gateway-admin-settings.php:85
+msgid "Test URLs"
+msgstr "URL de test"
+
+#: admin/mmb-gateway-admin-settings.php:87
+msgid "In this section You can set up EVOMexico test system URLs."
+msgstr "Cette section vous permet de définir des URL de test pour la plateforme EVOMexico"
+
+#: admin/mmb-gateway-admin-settings.php:90
+msgid "Test Token URL"
+msgstr "Test Token URL"
+
+#: admin/mmb-gateway-admin-settings.php:97
+msgid "Test Payments URL"
+msgstr "Test Payments URL"
+
+#: admin/mmb-gateway-admin-settings.php:104
+msgid "Test JavaScript URL"
+msgstr "Test JavaScript URL"
+
+#: admin/mmb-gateway-admin-settings.php:111
+msgid "Test Cashier URL"
+msgstr "Test Cashier URL"
+
+#: admin/mmb-gateway-admin-settings.php:123
+msgid "Token URL"
+msgstr "Token URL"
+
+#: admin/mmb-gateway-admin-settings.php:130
+msgid "Payments URL"
+msgstr "Payments URL"
+
+#: admin/mmb-gateway-admin-settings.php:137
+msgid "JavaScript URL"
+msgstr "JavaScript URL"
+
+#: admin/mmb-gateway-admin-settings.php:144
+msgid "Cashier URL"
+msgstr "Cashier URL"
+
+#: classes/class-mmb-gateway-woocommerce-activator.php:37
+#: classes/class-mmb-gateway-woocommerce-activator.php:43
+msgid "EVOMexico Gateway for Woocommerce requires Woocommerce version 2.1 or higher"
+msgstr "Le portail EVOMexico pour Woocommerce nécessite la version 2.1 (ou supérieure) de Woocommerce"
+
+#: classes/class-mmb-gateway-woocommerce-activator.php:37
+#: classes/class-mmb-gateway-woocommerce-activator.php:43
+msgid "Plugin Activation Error"
+msgstr "Problème d'activation du plug-in"
+
+msgid "Order ID:"
+msgstr ""
+
+msgid "Transaction ID:"
+msgstr ""
+
+msgid "Brand ID"
+msgstr ""
+
+msgid "Payment mode"
+msgstr ""
+
+msgid "Iframe"
+msgstr ""
+
+msgid "Redirect"
+msgstr ""
+
+msgid "HostedPayPage"
+msgstr ""
