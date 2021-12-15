@@ -199,7 +199,7 @@ class MMB_Gateway_Request
             "customerAddressCity" => $order->get_billing_city(),
             "customerAddressPostalCode" => $order->get_billing_postcode(),
             "customerAddressCountry" => $order->get_billing_country(),
-            "customerAddressState" => substr($order->get_billing_state(),0,3),
+//             "customerAddressState" => substr($order->get_billing_state(),0,3),
 //             "customerAddressPhone" => $order->get_billing_phone(),
             "merchantChallengeInd" => '01',
             "merchantDecReqInd" => 'N',
@@ -258,8 +258,9 @@ class MMB_Gateway_Request
                         'message_type' => $message_type
                     );
                     update_post_meta($order_id, '_mmb_gateway_message', $mmb_message);
-                    header($_SERVER['SERVER_PROTOCOL'] . ' 200 OK', true, 200);
-                    
+                    // Redirect
+                    wp_redirect( $order->get_checkout_order_received_url() );
+                    exit;
                 }else{
                     $mmb_message = array(
                         'message' =>  __( 'Card payment failed.', 'mmb-gateway-woocommerce' ).__( 'Order ID:', 'mmb-gateway-woocommerce' ) . $order->get_id() . '.'.__( 'Transaction ID:', 'mmb-gateway-woocommerce' ).  $merchantTxId,
@@ -467,7 +468,7 @@ class MMB_Gateway_Request
             customerAddressCity($post_data['customerAddressCity'])->
             customerAddressPostalCode($post_data['customerAddressPostalCode'])->
             customerAddressCountry($post_data['customerAddressCountry'])->
-            customerAddressState($post_data['customerAddressState'])->
+//             customerAddressState($post_data['customerAddressState'])->
 //             customerAddressPhone($post_data['customerAddressPhone'])->
             merchantChallengeInd($post_data['merchantChallengeInd'])->
             merchantDecReqInd($post_data['merchantDecReqInd'])->
